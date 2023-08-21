@@ -13,7 +13,7 @@ public class HelloConroller {
     @GetMapping("/hola")
     public String holaMundo() {
         System.out.println(message);
-        return "Hola Mundo, como estas";
+        return "Hola Mundo, como esta la vaina";
     }
     @GetMapping("/bootstrap")
     public String bootstrap(){
